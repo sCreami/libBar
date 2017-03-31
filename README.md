@@ -1,6 +1,6 @@
 # Librairie de gestion du capteur de pression BMP280
 
-## Réalisée par :
+### Réalisée par :
  - Julien Kessels
  - Valentin Lemenu
  - Alexis Nootens
@@ -25,6 +25,9 @@
   de multiplexage qui repose sur le principe d'allumer des leds rangée par rangée
   et balayer parmi ces rangées pour afficher le résultat final.
 
-### Voici le schéma d'origine du HL-M1388BR
+### Schéma d'origine du HL-M1388BR
 
-  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png)
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png | width=200)
+
+### Circuit interne
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/circuit.png | width=200)
