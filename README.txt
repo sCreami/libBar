@@ -17,3 +17,14 @@ Le dossier parent fourni les 3 exemples de code suivant :
 	3/ libBar-example.py montre l'utilisation de la librairie du capteur
 	   de pression et température BMP280
 
+
+Explication et utilisation de l'écran LED
+
+  Le HL-M1388BR est composé de 64 leds arrangées en 8 rangées et colonnes.
+  Pour y afficher des figures, chiffres et autres, il faut utiliser le principe
+  de multiplexage qui repose sur le principe d'allumer des leds rangée par rangée
+  et balayer parmi ces rangées pour afficher le résultat final.
+
+  Voici le schéma d'origine du HL-M1388BR
+
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png)
