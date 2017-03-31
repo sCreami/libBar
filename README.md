@@ -33,7 +33,7 @@
   ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/circuit.png)
 
   A l'aide de ce circuit et des branchemenents aux pins GPIO, nous avons pu
-  créer une correlation entre pins GPIO et les connections aux leds du HL-M1388BR,
+  créer une correspondance entre pins GPIO et les connections aux leds du HL-M1388BR,
   ici entourées et allant de 1 à 16.
 
 ### Tableau des correspondances
@@ -56,8 +56,3 @@
 |         14        |        68        |
 |         15        |        69        |
 |         16        |        67        |
-
-### Réalisation du signe "+"
-
-La réalisation d'une figure représentant un signe "+" ne demande pas beaucoup
-d'effort comme celui-ci peut être représenté avec seulement 3 colonnes.
