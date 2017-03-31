@@ -5,6 +5,7 @@ Black. Check the documentation in each function to learn how to use it.
 """
 import os.path
 
+# List of all available GPIO on the basic cape
 GPIO = [
     20, 26, 27, 44,
     45, 46, 47, 48,
@@ -17,6 +18,9 @@ GPIO = [
 def all(value=0):
     """
     Set a value for all or remove all floating led
+
+    Keyword arguments
+    value -- the state to set all the pins, 0 by default for low, 1 for high
     """
     for pin in GPIO:
         writePin(pin, value)
@@ -25,6 +29,9 @@ def all(value=0):
 def _enablePin(pin):
     """
     Fool-proof export of GPIO pins
+
+    Keyword arguments
+    pin -- an integer which represent the GPIO number
     """
     if pin not in GPIO:
         raise ValueError
@@ -36,7 +43,11 @@ def _enablePin(pin):
 
 def _direction(pin, direction='out'):
     """
-    Set pin direction
+    Set the direction of a pin, input or output
+
+    Keyword arguments
+    pin -- an integer which represent the GPIO number
+    direction -- if the pin is an input or output
     """
     _enablePin(pin)
 
@@ -48,7 +59,11 @@ def _direction(pin, direction='out'):
 
 def writePin(pin, value=1):
     """
-    Write pin
+    Set the state of a pin
+
+    Keyword arguments
+    pin -- an integer which represent the GPIO number
+    value -- the state to set the pin, 0 by default for low, 1 for high
     """
     if value not in [0, 1]:
         raise ValueError
@@ -61,7 +76,10 @@ def writePin(pin, value=1):
 
 def readPin(pin):
     """
-    Read pin
+    Read the state of a pin
+
+    Keyword arguments
+    pin -- an integer which represent the GPIO number
     """
     _direction(pin, 'in')
 
