@@ -42,3 +42,22 @@
 |------------------ | -----------------|
 |         1         |        60        |
 |         2         |        48        |
+|         3         |        49        |
+|         4         |        117       |
+|         5         |        115       |
+|         6         |        112       |
+|         7         |        20        |
+|         8         |        66        |
+|         9         |        46        |
+|         10        |        47        |
+|         11        |        26        |
+|         12        |        44        |
+|         13        |        45        |
+|         14        |        68        |
+|         15        |        69        |
+|         16        |        67        |
+
+### Réalisation du signe "+"
+
+La réalisation d'une figure représentant un signe "+" ne demande pas beaucoup
+d'effort comme celui-ci peut être représenté avec seulement 3 colonnes.
