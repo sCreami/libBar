@@ -27,7 +27,7 @@
 
 ### Schéma d'origine du HL-M1388BR
 
-  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png | width=200)
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png =250x)
 
 ### Circuit interne
-  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/circuit.png | width=200)
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/circuit.png =250x)
