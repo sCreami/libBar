@@ -27,7 +27,18 @@
 
 ### Schéma d'origine du HL-M1388BR
 
-  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png =250x)
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/schema.png)
 
 ### Circuit interne
-  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/circuit.png =250x)
+  ![alt tag](https://github.com/julienkessels/libBar/blob/master/doc/res/circuit.png)
+
+  A l'aide de ce circuit et des branchemenents aux pins GPIO, nous avons pu
+  créer une correlation entre pins GPIO et les connections aux leds du HL-M1388BR,
+  ici entourées et allant de 1 à 16.
+
+### Tableau des correspondances
+
+  Connection Led's  |     Pins GPIO
+  ----------------- | -----------------
+         1          |        60
+         2          |        48
