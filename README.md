@@ -38,7 +38,7 @@
 
 ### Tableau des correspondances
 
-  Connection Led's  |     Pins GPIO
-  ----------------- | -----------------
-         1          |        60
-         2          |        48
+| Connection Led's  |     Pins GPIO    |
+|------------------ | -----------------|
+|         1         |        60        |
+|         2         |        48        |
